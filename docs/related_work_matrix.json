@@ -1,0 +1,39 @@
+{
+  "checked_on": "2026-10-18",
+  "status": "Focused comparison of primary paper records; full-method novelty audit and domain review pending.",
+  "dimensions": ["task_environment", "established_overlap", "proposed_local_slice", "unproven_claim"],
+  "rows": [
+    {
+      "work": "HealthBench",
+      "url": "https://arxiv.org/abs/2505.08775",
+      "task_environment": "Open-ended health conversations with physician-written rubrics",
+      "established_overlap": "Includes clinical-data transformation and behavioral evaluation",
+      "proposed_local_slice": "Explicit correction links, evidence conflicts and metadata action grants",
+      "unproven_claim": "Whether this slice adds useful measurement beyond existing rubric criteria"
+    },
+    {
+      "work": "MedAgentBench",
+      "url": "https://arxiv.org/abs/2501.14654",
+      "task_environment": "Interactive FHIR-compliant virtual EHR tool environment",
+      "established_overlap": "Medical-record agent workflows and task success",
+      "proposed_local_slice": "Inspectably synthetic amendment and abstention scenarios",
+      "unproven_claim": "Realism, compatibility and improvement in actual EHR-agent behavior"
+    },
+    {
+      "work": "MedHELM",
+      "url": "https://arxiv.org/abs/2505.23802",
+      "task_environment": "Broad clinician-validated taxonomy and benchmark suite",
+      "established_overlap": "Research assistance, workflow tasks and evaluation-method validation",
+      "proposed_local_slice": "A narrow provenance/update diagnostic rather than holistic assessment",
+      "unproven_claim": "External validity and incremental value of the selected diagnostic"
+    },
+    {
+      "work": "MPIB",
+      "url": "https://arxiv.org/abs/2602.06268",
+      "task_environment": "Medical prompt injection and clinically grounded safety outcomes",
+      "established_overlap": "Direct and retrieved-context attacks, outcome-level evaluation",
+      "proposed_local_slice": "Nonclinical metadata correction and explicit action authorization",
+      "unproven_claim": "Any clinical safety benefit; this prototype does not measure clinical harm"
+    }
+  ]
+}
